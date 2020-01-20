@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>PPCのBlog</title>
+  
+  
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://yoursite.com/"/>
+  <updated>2020-01-20T05:22:38.898Z</updated>
+  <id>http://yoursite.com/</id>
+  
+  <author>
+    <name>PPC</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>bugku-web-计算器</title>
+    <link href="http://yoursite.com/2020/01/20/bugku-web-%E8%AE%A1%E7%AE%97%E5%99%A8/"/>
+    <id>http://yoursite.com/2020/01/20/bugku-web-%E8%AE%A1%E7%AE%97%E5%99%A8/</id>
+    <published>2020-01-20T05:01:24.000Z</published>
+    <updated>2020-01-20T05:22:38.898Z</updated>
+    
+    <content type="html"><![CDATA[<p><a href="https://ctf.bugku.com" target="_blank" rel="noopener">bugku平台</a></p><p>原题地址:<a href="http://123.206.87.240:8002/yanzhengma/" target="_blank" rel="noopener">http://123.206.87.240:8002/yanzhengma/</a></p><a id="more"></a><p><img src="/bugku-web-%E8%AE%A1%E7%AE%97%E5%99%A8/%E8%AE%A1%E7%AE%97%E5%99%A8-1.jpg" alt="alt"></p><p>今天来看看第二题</p><p><img src="/bugku-web-%E8%AE%A1%E7%AE%97%E5%99%A8/%E8%AE%A1%E7%AE%97%E5%99%A8-2.jpg" alt="alt"></p><p>看起来好像只要做一道口算题</p><p><img src="/bugku-web-%E8%AE%A1%E7%AE%97%E5%99%A8/%E8%AE%A1%E7%AE%97%E5%99%A8-3.jpg" alt="alt"></p><p>然而输入一个数后就输不进去了</p><p>那就来康康网页代码，F12</p><p><img src="/bugku-web-%E8%AE%A1%E7%AE%97%E5%99%A8/%E8%AE%A1%E7%AE%97%E5%99%A8-4.jpg" alt="alt"></p><p>可以发现，这里输入的最大长度maxlength=“1”</p><p>直接编辑它使它大于等于2</p><p><img src="/bugku-web-%E8%AE%A1%E7%AE%97%E5%99%A8/%E8%AE%A1%E7%AE%97%E5%99%A8-5.jpg" alt="alt"></p><p>这样就可以输入完整的答案了</p><p><img src="/bugku-web-%E8%AE%A1%E7%AE%97%E5%99%A8/%E8%AE%A1%E7%AE%97%E5%99%A8-6.jpg" alt="alt"></p><p>验证后，出现一个弹窗，得到flag</p><p><img src="/bugku-web-%E8%AE%A1%E7%AE%97%E5%99%A8/%E8%AE%A1%E7%AE%97%E5%99%A8-7.jpg" alt="alt"></p><p>flag{CTF-bugku-0032}</p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;a href=&quot;https://ctf.bugku.com&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;bugku平台&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;原题地址:&lt;a href=&quot;http://123.206.87.240:8002/yanzhengma/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;http://123.206.87.240:8002/yanzhengma/&lt;/a&gt;&lt;/p&gt;
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>bugku-web-web2</title>
+    <link href="http://yoursite.com/2020/01/19/bugku-web-web2/"/>
+    <id>http://yoursite.com/2020/01/19/bugku-web-web2/</id>
+    <published>2020-01-19T09:03:20.000Z</published>
+    <updated>2020-01-19T13:25:59.406Z</updated>
+    
+    <content type="html"><![CDATA[<p><a href="https://ctf.bugku.com" target="_blank" rel="noopener">bugku平台</a></p><p>原题地址:<a href="http://123.206.87.240:8002/web2/" target="_blank" rel="noopener">http://123.206.87.240:8002/web2/</a></p><a id="more"></a><p><img src="/bugku-web-web2/web2-1.jpg" alt="alt"></p><p>第一题应该灰常简单进去看一眼</p><p><img src="/bugku-web-web2/web2-2.jpg" alt="alt"></p><p>emmmm。。。。</p><p>先F12瞅一眼</p><p><img src="/bugku-web-web2/web2-3.jpg" alt="alt"></p><p><img src="/bugku-web-web2/web2-4.jpg" alt="alt"></p><p>出现了是flag！</p><p><img src="/bugku-web-web2/web2-5.jpg" alt="alt"></p><p>OK今天的博客就这么水完了（<del>好像过于水了一点</del>新手起步水一水,以后质量会越来越<del>水</del>高的）</p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;a href=&quot;https://ctf.bugku.com&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;bugku平台&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;原题地址:&lt;a href=&quot;http://123.206.87.240:8002/web2/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;http://123.206.87.240:8002/web2/&lt;/a&gt;&lt;/p&gt;
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>关于博客的Flag</title>
+    <link href="http://yoursite.com/2020/01/18/The%20first/"/>
+    <id>http://yoursite.com/2020/01/18/The%20first/</id>
+    <published>2020-01-18T10:24:19.000Z</published>
+    <updated>2020-01-18T14:20:35.265Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="寒暑假日更"><a href="#寒暑假日更" class="headerlink" title="寒暑假日更"></a>寒暑假日更</h2><h2 id="上学期间一周3次"><a href="#上学期间一周3次" class="headerlink" title="上学期间一周3次"></a>上学期间一周3次</h2><h2 id="一个月最多允许请假（鸽）3次"><a href="#一个月最多允许请假（鸽）3次" class="headerlink" title="一个月最多允许请假（鸽）3次"></a>一个月最多允许请假（鸽）3次</h2>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;寒暑假日更&quot;&gt;&lt;a href=&quot;#寒暑假日更&quot; class=&quot;headerlink&quot; title=&quot;寒暑假日更&quot;&gt;&lt;/a&gt;寒暑假日更&lt;/h2&gt;&lt;h2 id=&quot;上学期间一周3次&quot;&gt;&lt;a href=&quot;#上学期间一周3次&quot; class=&quot;headerlink&quot; titl
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+</feed>
