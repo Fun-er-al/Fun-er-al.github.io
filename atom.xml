@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2020-01-21T08:00:12.631Z</updated>
+  <updated>2020-01-21T08:06:03.442Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -17,21 +17,18 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>web-web基础$_GET</title>
-    <link href="http://yoursite.com/2020/01/21/web-web%E5%9F%BA%E7%A1%80-GET/"/>
-    <id>http://yoursite.com/2020/01/21/web-web%E5%9F%BA%E7%A1%80-GET/</id>
+    <title>bugku-web-web基础$_GET</title>
+    <link href="http://yoursite.com/2020/01/21/bugku-web-web%E5%9F%BA%E7%A1%80-GET/"/>
+    <id>http://yoursite.com/2020/01/21/bugku-web-web%E5%9F%BA%E7%A1%80-GET/</id>
     <published>2020-01-21T07:16:12.000Z</published>
-    <updated>2020-01-21T08:00:12.631Z</updated>
+    <updated>2020-01-21T08:06:03.442Z</updated>
     
-    <content type="html"><![CDATA[<p><a href="https://ctf.bugku.com" target="_blank" rel="noopener">bugku平台</a></p><p>原题地址:<a href="http://123.206.87.240:8002/get/" target="_blank" rel="noopener">http://123.206.87.240:8002/get/</a></p><p><img src="/bugku-web-web%E5%9F%BA%E7%A1%80-GET/web%E5%9F%BA%E7%A1%80-GET-1.jpg" alt="alt"></p><p>简单的第三题</p><p>进去之后，网页显示一段简单的代码，意思是用GET方法获取变量what的指，当what等于flag时就echo flag</p><p><img src="/bugku-web-web%E5%9F%BA%E7%A1%80-GET/web%E5%9F%BA%E7%A1%80-GET-2.jpg" alt="alt"></p><p> $_GET传参请求的参数是在url中，我们可以直接在url后面加上?what=flag（<i>其中?是变量的标识，表示声明一个叫what的变量并使它的值为flag</i>i&gt;）,刷新一下就可以发现flag被echo到了最后一行</p><p><img src="/bugku-web-web%E5%9F%BA%E7%A1%80-GET/web%E5%9F%BA%E7%A1%80-GET-3.jpg" alt="alt"></p><p> flag{bugku_get_su8kej2en} </p>]]></content>
+    <content type="html"><![CDATA[<p><a href="https://ctf.bugku.com" target="_blank" rel="noopener">bugku平台</a></p><p>原题地址:<a href="http://123.206.87.240:8002/get/" target="_blank" rel="noopener">http://123.206.87.240:8002/get/</a></p><a id="more"></a><p><img src="/bugku-web-web%E5%9F%BA%E7%A1%80-GET/web%E5%9F%BA%E7%A1%80-GET-1.jpg" alt="alt"></p><p>简单的第三题</p><p>进去之后，网页显示一段简单的代码，意思是用GET方法获取变量what的指，当what等于flag时就echo flag</p><p><img src="/bugku-web-web%E5%9F%BA%E7%A1%80-GET/web%E5%9F%BA%E7%A1%80-GET-2.jpg" alt="alt"></p><p> $_GET传参请求的参数是在url中，我们可以直接在url后面加上?what=flag（<em>其中?是变量的标识，表示声明一个叫what的变量并使它的值为flag</em>）,刷新一下就可以发现flag被echo到了最后一行</p><p><img src="/bugku-web-web%E5%9F%BA%E7%A1%80-GET/web%E5%9F%BA%E7%A1%80-GET-3.jpg" alt="alt"></p><p> flag{bugku_get_su8kej2en} </p>]]></content>
     
     <summary type="html">
     
-      
-      
-        &lt;p&gt;&lt;a href=&quot;https://ctf.bugku.com&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;bugku平台&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;原题地址:&lt;a href=&quot;http://123.206.87.240:8002/get/&quot; target=&quot;
-      
+      &lt;p&gt;&lt;a href=&quot;https://ctf.bugku.com&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;bugku平台&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;原题地址:&lt;a href=&quot;http://123.206.87.240:8002/get/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;http://123.206.87.240:8002/get/&lt;/a&gt;&lt;/p&gt;
     
     </summary>
     
