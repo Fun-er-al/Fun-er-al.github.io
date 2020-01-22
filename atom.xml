@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2020-01-21T08:06:03.442Z</updated>
+  <updated>2020-01-22T08:39:28.428Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,26 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>bugku-web-web基础$_POST</title>
+    <link href="http://yoursite.com/2020/01/22/bugku-web-web%E5%9F%BA%E7%A1%80-POST/"/>
+    <id>http://yoursite.com/2020/01/22/bugku-web-web%E5%9F%BA%E7%A1%80-POST/</id>
+    <published>2020-01-22T06:11:37.000Z</published>
+    <updated>2020-01-22T08:39:28.428Z</updated>
+    
+    <content type="html"><![CDATA[<p><a href="https://ctf.bugku.com" target="_blank" rel="noopener">bugku平台</a></p><p>原题地址:<a href="http://123.206.87.240:8002/post/" target="_blank" rel="noopener">http://123.206.87.240:8002/post/</a></p><a id="more"></a><p><img src="/bugku-web-web%E5%9F%BA%E7%A1%80-POST/web%E5%9F%BA%E7%A1%80-POST-1.jpg" alt="alt"></p><p>继续更新~</p><p>和前一题类似，进来后网页显示网页代码（和F12看到的东西是一样的）</p><p><img src="/bugku-web-web%E5%9F%BA%E7%A1%80-POST/web%E5%9F%BA%E7%A1%80-POST-2.jpg" alt="alt"></p><p>可以发现这个代码和上一题几乎是一模一样的，除了将GET方法改为了POST方法</p><p>与GET方法不同，POST传参是在消息体中，所以应该在数据包中加入what=flag</p><p>可以使用burp工具抓包改包实现，不过这里用火狐浏览器自带的功能就可以解决</p><p>直接用火狐浏览器修改数据包后重发（<strong>注意把方法改成POST</strong>）</p><p><img src="/bugku-web-web%E5%9F%BA%E7%A1%80-POST/web%E5%9F%BA%E7%A1%80-POST-3.jpg" alt="alt"></p><p>得到flag</p><p><img src="/bugku-web-web%E5%9F%BA%E7%A1%80-POST/web%E5%9F%BA%E7%A1%80-POST-4.jpg" alt="alt"></p><p> flag{bugku_get_ssseint67se} </p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;a href=&quot;https://ctf.bugku.com&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;bugku平台&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;原题地址:&lt;a href=&quot;http://123.206.87.240:8002/post/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;http://123.206.87.240:8002/post/&lt;/a&gt;&lt;/p&gt;
+    
+    </summary>
+    
+    
+    
+  </entry>
   
   <entry>
     <title>bugku-web-web基础$_GET</title>
