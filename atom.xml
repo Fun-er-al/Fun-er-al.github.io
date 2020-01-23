@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2020-01-22T08:39:28.428Z</updated>
+  <updated>2020-01-23T09:50:52.112Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,26 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>bugku-web-矛盾</title>
+    <link href="http://yoursite.com/2020/01/23/bugku-web-%E7%9F%9B%E7%9B%BE/"/>
+    <id>http://yoursite.com/2020/01/23/bugku-web-%E7%9F%9B%E7%9B%BE/</id>
+    <published>2020-01-23T09:26:06.000Z</published>
+    <updated>2020-01-23T09:50:52.112Z</updated>
+    
+    <content type="html"><![CDATA[<p><a href="https://ctf.bugku.com" target="_blank" rel="noopener">bugku平台</a></p><p>原题地址:<a href="http://123.206.87.240:8002/get/index1.php" target="_blank" rel="noopener">http://123.206.87.240:8002/get/index1.php</a></p><a id="more"></a><p><img src="/bugku-web-%E7%9F%9B%E7%9B%BE/%E7%9F%9B%E7%9B%BE-1.jpg" alt="alt"></p><p>同样是一道代码审计题</p><p>观察代码，需要我们用GET方法提交一个参数，它不能是数字，但同时要等于1</p><p><img src="/bugku-web-%E7%9F%9B%E7%9B%BE/%E7%9F%9B%E7%9B%BE-2.jpg" alt="alt"></p><p>感觉挺矛盾（<del>强行点题</del>）</p><p>这里我首先想到用<strong>1\0</strong>来绕过这样参数类型就为字符串同时等于0</p><p>直接写在url里提交</p><p><img src="/bugku-web-%E7%9F%9B%E7%9B%BE/%E7%9F%9B%E7%9B%BE-3.jpg" alt="alt"></p><p>刷新一下flag就出来了</p><p><img src="/bugku-web-%E7%9F%9B%E7%9B%BE/%E7%9F%9B%E7%9B%BE-4.jpg" alt="alt"></p><p>还有很多种绕过方法比如<strong>1*1</strong>、<strong>1+0</strong>等等</p><p> flag{bugku-789-ps-ssdf} </p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;a href=&quot;https://ctf.bugku.com&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;bugku平台&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;原题地址:&lt;a href=&quot;http://123.206.87.240:8002/get/index1.php&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;http://123.206.87.240:8002/get/index1.php&lt;/a&gt;&lt;/p&gt;
+    
+    </summary>
+    
+    
+    
+  </entry>
   
   <entry>
     <title>bugku-web-web基础$_POST</title>
