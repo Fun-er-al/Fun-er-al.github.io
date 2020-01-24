@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2020-01-23T09:50:52.112Z</updated>
+  <updated>2020-01-24T04:32:37.814Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,26 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>bugku-web-web3</title>
+    <link href="http://yoursite.com/2020/01/24/bugku-web-web3/"/>
+    <id>http://yoursite.com/2020/01/24/bugku-web-web3/</id>
+    <published>2020-01-24T04:18:49.000Z</published>
+    <updated>2020-01-24T04:32:37.814Z</updated>
+    
+    <content type="html"><![CDATA[<p><a href="https://ctf.bugku.com" target="_blank" rel="noopener">bugku平台</a></p><p>原题地址:<a href="http://123.206.87.240:8002/web3/" target="_blank" rel="noopener">http://123.206.87.240:8002/web3/</a></p><a id="more"></a><p><img src="/bugku-web-web3/web3-1.jpg" alt="alt"></p><p>进去看一眼</p><p><img src="/bugku-web-web3/web3-2.jpg" alt="alt"></p><p><img src="/bugku-web-web3/web3-3.jpg" alt="alt"></p><p>两个对话框无限循环</p><p>关掉之后进去看看</p><p>F12看源码，展开之后可以发现一行注释</p><p><img src="/bugku-web-web3/web3-4.jpg" alt="alt"></p><p><code>&amp;#75;&amp;#69;&amp;#89;&amp;#123;&amp;#74;&amp;#50;&amp;#115;&amp;#97;&amp;#52;&amp;#50;&amp;#97;&amp;#104;&amp;#74;&amp;#75;&amp;#45;&amp;#72;&amp;#83;&amp;#49;&amp;#49;&amp;#73;&amp;#73;&amp;#73;&amp;#125;</code></p><p>观察之后，发现它很像 unicode编码 </p><p>事实上我用Typora编辑此文档时，直接将其粘贴过来就会自动转译成flag</p><p> &#75;&#69;&#89;&#123;&#74;&#50;&#115;&#97;&#52;&#50;&#97;&#104;&#74;&#75;&#45;&#72;&#83;&#49;&#49;&#73;&#73;&#73;&#125;</p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;a href=&quot;https://ctf.bugku.com&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;bugku平台&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;原题地址:&lt;a href=&quot;http://123.206.87.240:8002/web3/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;http://123.206.87.240:8002/web3/&lt;/a&gt;&lt;/p&gt;
+    
+    </summary>
+    
+    
+    
+  </entry>
   
   <entry>
     <title>bugku-web-矛盾</title>
