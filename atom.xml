@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2020-01-24T04:32:37.814Z</updated>
+  <updated>2020-01-25T10:37:26.292Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,26 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>bugku-web-域名解析</title>
+    <link href="http://yoursite.com/2020/01/25/bugku-web-%E5%9F%9F%E5%90%8D%E8%A7%A3%E6%9E%90/"/>
+    <id>http://yoursite.com/2020/01/25/bugku-web-%E5%9F%9F%E5%90%8D%E8%A7%A3%E6%9E%90/</id>
+    <published>2020-01-25T10:05:33.000Z</published>
+    <updated>2020-01-25T10:37:26.292Z</updated>
+    
+    <content type="html"><![CDATA[<p><a href="https://ctf.bugku.com" target="_blank" rel="noopener">bugku平台</a></p><p>原题地址:<em>哦这题并没有传统意义上的地址</em></p><a id="more"></a><p><img src="/bugku-web-%E5%9F%9F%E5%90%8D%E8%A7%A3%E6%9E%90/%E5%9F%9F%E5%90%8D%E8%A7%A3%E6%9E%90-1.jpg" alt="alt"></p><p>这就是这个题的题干了</p><p>访问网站时，本质是通过ip和端口找到网站的，为了方便记忆出现了域名用来代替这些信息</p><p>因此通过域名访问网站时，计算机要先将域名解析成对应的ip，再进行访问</p><p>域名解析时，会先从本机的hosts文件中寻找映射，如果没有则再向DNS服务器发出请求，由DNS服务器进行解析</p><p>显然本题通过DNS服务器是无法解析的</p><p>因此我们需要手动到hosts文件中去添加这对映射</p><p>hosts文件目录:<code>C:\Windows\System32\drivers\etc\hosts</code></p><p>以记事本方式打开</p><p>在末尾添加 <code>120.24.86.145 flag.bugku.com</code></p><p>再次打开浏览器，访问flag.bugku.com即可</p><p><img src="/bugku-web-%E5%9F%9F%E5%90%8D%E8%A7%A3%E6%9E%90/%E5%9F%9F%E5%90%8D%E8%A7%A3%E6%9E%90-2.jpg" alt="alt"></p><p> KEY{DSAHDSJ82HDS2211} </p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;a href=&quot;https://ctf.bugku.com&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;bugku平台&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;原题地址:&lt;em&gt;哦这题并没有传统意义上的地址&lt;/em&gt;&lt;/p&gt;
+    
+    </summary>
+    
+    
+    
+  </entry>
   
   <entry>
     <title>bugku-web-web3</title>
