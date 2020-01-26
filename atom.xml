@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2020-01-25T10:37:26.292Z</updated>
+  <updated>2020-01-26T07:34:31.878Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,26 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>bugku-web-你必须让他停下</title>
+    <link href="http://yoursite.com/2020/01/26/bugku-web-%E4%BD%A0%E5%BF%85%E9%A1%BB%E8%AE%A9%E4%BB%96%E5%81%9C%E4%B8%8B/"/>
+    <id>http://yoursite.com/2020/01/26/bugku-web-%E4%BD%A0%E5%BF%85%E9%A1%BB%E8%AE%A9%E4%BB%96%E5%81%9C%E4%B8%8B/</id>
+    <published>2020-01-26T07:05:33.000Z</published>
+    <updated>2020-01-26T07:34:31.878Z</updated>
+    
+    <content type="html"><![CDATA[<p><a href="https://ctf.bugku.com" target="_blank" rel="noopener">bugku平台</a></p><p>原题地址:<a href="http://123.206.87.240:8002/web12/" target="_blank" rel="noopener">http://123.206.87.240:8002/web12/</a></p><a id="more"></a><p><img src="/bugku-web-%E4%BD%A0%E5%BF%85%E9%A1%BB%E8%AE%A9%E4%BB%96%E5%81%9C%E4%B8%8B/%E4%BD%A0%E5%BF%85%E9%A1%BB%E8%AE%A9%E4%BB%96%E5%81%9C%E4%B8%8B-1.jpg" alt="alt"></p><p>更更更~</p><p>进来之后就不停的闪图片。。。</p><p>尴尬的是许多图片资源都失效了</p><p><img src="/bugku-web-%E4%BD%A0%E5%BF%85%E9%A1%BB%E8%AE%A9%E4%BB%96%E5%81%9C%E4%B8%8B/%E4%BD%A0%E5%BF%85%E9%A1%BB%E8%AE%A9%E4%BB%96%E5%81%9C%E4%B8%8B-2.jpg" alt="alt"></p><p>结合网页上的文字和网页代码的注释</p><p>只要在特定的熊猫页面停住F12就可以看到flag了。。。</p><p>按esc键就停住了。。。</p><p>多刷新几次就可以了</p><p>当然也可以抓包看（非洲人决定抓包）</p><p><img src="/bugku-web-%E4%BD%A0%E5%BF%85%E9%A1%BB%E8%AE%A9%E4%BB%96%E5%81%9C%E4%B8%8B/%E4%BD%A0%E5%BF%85%E9%A1%BB%E8%AE%A9%E4%BB%96%E5%81%9C%E4%B8%8B-3.jpg" alt="alt"></p><p>flag{dummy_game_1s_s0_popular}</p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;a href=&quot;https://ctf.bugku.com&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;bugku平台&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;原题地址:&lt;a href=&quot;http://123.206.87.240:8002/web12/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;http://123.206.87.240:8002/web12/&lt;/a&gt;&lt;/p&gt;
+    
+    </summary>
+    
+    
+    
+  </entry>
   
   <entry>
     <title>bugku-web-域名解析</title>
