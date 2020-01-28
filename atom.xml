@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2020-01-27T05:57:43.269Z</updated>
+  <updated>2020-01-28T11:42:59.688Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,26 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>bugku-web-头等舱</title>
+    <link href="http://yoursite.com/2020/01/28/bugku-web-%E5%A4%B4%E7%AD%89%E8%88%B1/"/>
+    <id>http://yoursite.com/2020/01/28/bugku-web-%E5%A4%B4%E7%AD%89%E8%88%B1/</id>
+    <published>2020-01-28T11:31:51.000Z</published>
+    <updated>2020-01-28T11:42:59.688Z</updated>
+    
+    <content type="html"><![CDATA[<p><a href="https://ctf.bugku.com" target="_blank" rel="noopener">bugku平台</a></p><p>原题地址:<a href="http://123.206.87.240:9009/hd.php" target="_blank" rel="noopener">http://123.206.87.240:9009/hd.php</a></p><a id="more"></a><p><img src="/bugku-web-%E5%A4%B4%E7%AD%89%E8%88%B1/%E5%A4%B4%E7%AD%89%E8%88%B1-1.jpg" alt="alt"></p><p>继续水略略略~</p><p>点进去啥也没用（各种意义上）</p><p><img src="/bugku-web-%E5%A4%B4%E7%AD%89%E8%88%B1/%E5%A4%B4%E7%AD%89%E8%88%B1-2.jpg" alt="alt"></p><p>F12也是啥也没有</p><p><img src="/bugku-web-%E5%A4%B4%E7%AD%89%E8%88%B1/%E5%A4%B4%E7%AD%89%E8%88%B1-3.jpg" alt="alt"></p><p>抓个包</p><p>哦有了（<del>没意思</del>）</p><p><img src="/bugku-web-%E5%A4%B4%E7%AD%89%E8%88%B1/%E5%A4%B4%E7%AD%89%E8%88%B1-4.jpg" alt="alt"></p><p>flag{Bugku_k8_23s_istra}</p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;a href=&quot;https://ctf.bugku.com&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;bugku平台&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;原题地址:&lt;a href=&quot;http://123.206.87.240:9009/hd.php&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;http://123.206.87.240:9009/hd.php&lt;/a&gt;&lt;/p&gt;
+    
+    </summary>
+    
+    
+    
+  </entry>
   
   <entry>
     <title>bugku-web-变量1</title>
