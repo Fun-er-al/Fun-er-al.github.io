@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2020-01-28T11:42:59.688Z</updated>
+  <updated>2020-01-29T12:20:30.434Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,26 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>bugku-web-网站被黑</title>
+    <link href="http://yoursite.com/2020/01/29/bugku-web-%E7%BD%91%E7%AB%99%E8%A2%AB%E9%BB%91/"/>
+    <id>http://yoursite.com/2020/01/29/bugku-web-%E7%BD%91%E7%AB%99%E8%A2%AB%E9%BB%91/</id>
+    <published>2020-01-29T11:06:57.000Z</published>
+    <updated>2020-01-29T12:20:30.434Z</updated>
+    
+    <content type="html"><![CDATA[<p><a href="https://ctf.bugku.com" target="_blank" rel="noopener">bugku平台</a></p><p>原题地址:<a href="http://123.206.87.240:8002/webshell/" target="_blank" rel="noopener">http://123.206.87.240:8002/webshell/</a></p><a id="more"></a><p><img src="/bugku-web-%E7%BD%91%E7%AB%99%E8%A2%AB%E9%BB%91/%E7%BD%91%E7%AB%99%E8%A2%AB%E9%BB%91-1.jpg" alt="alt"></p><p>一个常用的技能。。。。</p><p>先进去看一眼</p><p>是个黑页（<del>特效还挺好看</del>）</p><p><img src="/bugku-web-%E7%BD%91%E7%AB%99%E8%A2%AB%E9%BB%91/%E7%BD%91%E7%AB%99%E8%A2%AB%E9%BB%91-2.jpg" alt="alt"></p><p>F12也没啥有用信息</p><p><img src="/bugku-web-%E7%BD%91%E7%AB%99%E8%A2%AB%E9%BB%91/%E7%BD%91%E7%AB%99%E8%A2%AB%E9%BB%91-3.jpg" alt="alt"></p><p>用御剑工具扫它后台看看（因为url上写着webshell应该是提示）</p><p><img src="/bugku-web-%E7%BD%91%E7%AB%99%E8%A2%AB%E9%BB%91/%E7%BD%91%E7%AB%99%E8%A2%AB%E9%BB%91-4.jpg" alt="alt"></p><p>果然有个shell</p><p>点进去康康</p><p><img src="/bugku-web-%E7%BD%91%E7%AB%99%E8%A2%AB%E9%BB%91/%E7%BD%91%E7%AB%99%E8%A2%AB%E9%BB%91-5.jpg" alt="alt"></p><p>用户名都没有，就一个密码，从出题的角度来考虑就是一道弱口令爆破题</p><p>随便输个密码用bp抓包</p><p><img src="/bugku-web-%E7%BD%91%E7%AB%99%E8%A2%AB%E9%BB%91/%E7%BD%91%E7%AB%99%E8%A2%AB%E9%BB%91-6.jpg" alt="alt"></p><p><img src="/bugku-web-%E7%BD%91%E7%AB%99%E8%A2%AB%E9%BB%91/%E7%BD%91%E7%AB%99%E8%A2%AB%E9%BB%91-7.jpg" alt="alt"></p><p><img src="/bugku-web-%E7%BD%91%E7%AB%99%E8%A2%AB%E9%BB%91/%E7%BD%91%E7%AB%99%E8%A2%AB%E9%BB%91-8.jpg" alt="alt"></p><p>开始爆破</p><p>用响应数据包的长度来鉴别正确密码</p><p>这个hack的长度与众不同，应该就是它了</p><p><img src="/bugku-web-%E7%BD%91%E7%AB%99%E8%A2%AB%E9%BB%91/%E7%BD%91%E7%AB%99%E8%A2%AB%E9%BB%91-9.jpg" alt="alt"></p><p><img src="/bugku-web-%E7%BD%91%E7%AB%99%E8%A2%AB%E9%BB%91/%E7%BD%91%E7%AB%99%E8%A2%AB%E9%BB%91-10.jpg" alt="alt"></p><p>果然是它</p><p>flag{hack_bug_ku035}</p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;a href=&quot;https://ctf.bugku.com&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;bugku平台&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;原题地址:&lt;a href=&quot;http://123.206.87.240:8002/webshell/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;http://123.206.87.240:8002/webshell/&lt;/a&gt;&lt;/p&gt;
+    
+    </summary>
+    
+    
+    
+  </entry>
   
   <entry>
     <title>bugku-web-头等舱</title>
