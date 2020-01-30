@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2020-01-29T12:20:30.434Z</updated>
+  <updated>2020-01-30T12:18:53.852Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,26 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>bugku-web-管理员系统</title>
+    <link href="http://yoursite.com/2020/01/30/bugku-web-%E7%AE%A1%E7%90%86%E5%91%98%E7%B3%BB%E7%BB%9F/"/>
+    <id>http://yoursite.com/2020/01/30/bugku-web-%E7%AE%A1%E7%90%86%E5%91%98%E7%B3%BB%E7%BB%9F/</id>
+    <published>2020-01-30T11:56:32.000Z</published>
+    <updated>2020-01-30T12:18:53.852Z</updated>
+    
+    <content type="html"><![CDATA[<p><a href="https://ctf.bugku.com" target="_blank" rel="noopener">bugku平台</a></p><p>原题地址:<a href="http://123.206.31.85:1003/" target="_blank" rel="noopener">http://123.206.31.85:1003/</a></p><a id="more"></a><p><img src="/bugku-web-%E7%AE%A1%E7%90%86%E5%91%98%E7%B3%BB%E7%BB%9F/%E7%AE%A1%E7%90%86%E5%91%98%E7%B3%BB%E7%BB%9F-1.jpg" alt="alt"></p><p>更~</p><p>进去康康</p><p><img src="/bugku-web-%E7%AE%A1%E7%90%86%E5%91%98%E7%B3%BB%E7%BB%9F/%E7%AE%A1%E7%90%86%E5%91%98%E7%B3%BB%E7%BB%9F-2.jpg" alt="alt"></p><p>一个登录界面</p><p>随便输点试试</p><p><img src="/bugku-web-%E7%AE%A1%E7%90%86%E5%91%98%E7%B3%BB%E7%BB%9F/%E7%AE%A1%E7%90%86%E5%91%98%E7%B3%BB%E7%BB%9F-3.jpg" alt="alt"></p><p>特意强调一下是“本地”管理员，所以应该是要伪造成本地登录</p><p>F12再看一眼</p><p><img src="/bugku-web-%E7%AE%A1%E7%90%86%E5%91%98%E7%B3%BB%E7%BB%9F/%E7%AE%A1%E7%90%86%E5%91%98%E7%B3%BB%E7%BB%9F-4.jpg" alt="alt"></p><p>有一行注释，可能是密码，可能被base64加密过，先解密一下看看是不是有意义</p><p>解密结果test123，那应该是这个了</p><p>接下来伪装本地登录，先抓包（密码先输test123）</p><p><img src="/bugku-web-%E7%AE%A1%E7%90%86%E5%91%98%E7%B3%BB%E7%BB%9F/%E7%AE%A1%E7%90%86%E5%91%98%E7%B3%BB%E7%BB%9F-5.jpg" alt="alt"></p><p>然后在数据包中加入一个XFF头</p><p><code>X-Forwarded-For: 127.0.0.1</code></p><p><img src="/bugku-web-%E7%AE%A1%E7%90%86%E5%91%98%E7%B3%BB%E7%BB%9F/%E7%AE%A1%E7%90%86%E5%91%98%E7%B3%BB%E7%BB%9F-6.jpg" alt="alt"></p><p>go一下得到flag</p><p>flag{85ff2ee4171396724bae20c0bd851f6b}</p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;a href=&quot;https://ctf.bugku.com&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;bugku平台&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;原题地址:&lt;a href=&quot;http://123.206.31.85:1003/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;http://123.206.31.85:1003/&lt;/a&gt;&lt;/p&gt;
+    
+    </summary>
+    
+    
+    
+  </entry>
   
   <entry>
     <title>bugku-web-网站被黑</title>
