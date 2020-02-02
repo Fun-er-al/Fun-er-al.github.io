@@ -6,15 +6,25 @@
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge" >
   <link rel="dns-prefetch" href="http://yoursite.com">
-  <title>Archives: 2020 | PPCのBlog</title>
+  <title>bugku-web-flag在index里 | PPCのBlog</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta property="og:type" content="website">
-<meta property="og:title" content="PPCのBlog">
-<meta property="og:url" content="http://yoursite.com/archives/2020/page/2/index.html">
+  <meta name="description" content="bugku平台 原题地址:http:&#x2F;&#x2F;123.206.87.240:8005&#x2F;post&#x2F;">
+<meta property="og:type" content="article">
+<meta property="og:title" content="bugku-web-flag在index里">
+<meta property="og:url" content="http://yoursite.com/2020/02/01/bugku-web-flag%E5%9C%A8index%E9%87%8C/index.html">
 <meta property="og:site_name" content="PPCのBlog">
+<meta property="og:description" content="bugku平台 原题地址:http:&#x2F;&#x2F;123.206.87.240:8005&#x2F;post&#x2F;">
 <meta property="og:locale" content="en_US">
+<meta property="og:image" content="http://yoursite.com/bugku-web-flag%E5%9C%A8index%E9%87%8C/flag%E5%9C%A8index%E9%87%8C-1.jpg">
+<meta property="og:image" content="http://yoursite.com/bugku-web-flag%E5%9C%A8index%E9%87%8C/flag%E5%9C%A8index%E9%87%8C-2.jpg">
+<meta property="og:image" content="http://yoursite.com/bugku-web-flag%E5%9C%A8index%E9%87%8C/flag%E5%9C%A8index%E9%87%8C-3.jpg">
+<meta property="og:image" content="http://yoursite.com/bugku-web-flag%E5%9C%A8index%E9%87%8C/flag%E5%9C%A8index%E9%87%8C-4.jpg">
+<meta property="og:image" content="http://yoursite.com/bugku-web-flag%E5%9C%A8index%E9%87%8C/flag%E5%9C%A8index%E9%87%8C-5.jpg">
+<meta property="article:published_time" content="2020-02-01T14:07:43.000Z">
+<meta property="article:modified_time" content="2020-02-02T14:35:01.075Z">
 <meta property="article:author" content="PPC">
 <meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="http://yoursite.com/bugku-web-flag%E5%9C%A8index%E9%87%8C/flag%E5%9C%A8index%E9%87%8C-1.jpg">
   
     <link rel="alternative" href="/atom.xml" title="PPCのBlog" type="application/atom+xml">
   
@@ -142,160 +152,155 @@
             <canvas data-colors="#eaeaea" data-sectionHeight="100" data-contentId="js-content" id="myCanvas1" class="anm-canvas"></canvas>
           </div>
           <div id="js-content" class="content-ll">
-            
-  
-  
+            <article id="post-bugku-web-flag在index里" class="article article-type-post " itemscope itemprop="blogPost">
+  <div class="article-inner">
     
+      <header class="article-header">
+        
+  
+    <h1 class="article-title" itemprop="name">
+      bugku-web-flag在index里
+    </h1>
+  
+
+        
+        <a href="/2020/02/01/bugku-web-flag%E5%9C%A8index%E9%87%8C/" class="archive-article-date">
+  	<time datetime="2020-02-01T14:07:43.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2020-02-01</time>
+</a>
+        
+      </header>
     
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p><a href="https://ctf.bugku.com" target="_blank" rel="noopener">bugku平台</a></p>
+<p>原题地址:<a href="http://123.206.87.240:8005/post/" target="_blank" rel="noopener">http://123.206.87.240:8005/post/</a></p>
+<a id="more"></a>
+
+<p><img src="/bugku-web-flag%E5%9C%A8index%E9%87%8C/flag%E5%9C%A8index%E9%87%8C-1.jpg" alt="alt"></p>
+<p>继续更</p>
+<p>进去看一眼</p>
+<p><img src="/bugku-web-flag%E5%9C%A8index%E9%87%8C/flag%E5%9C%A8index%E9%87%8C-2.jpg" alt="alt"></p>
+<p>那就点它一下</p>
+<p><img src="/bugku-web-flag%E5%9C%A8index%E9%87%8C/flag%E5%9C%A8index%E9%87%8C-3.jpg" alt="alt"></p>
+<p>瞄了一样url感觉有点问题</p>
+<p><img src="/bugku-web-flag%E5%9C%A8index%E9%87%8C/flag%E5%9C%A8index%E9%87%8C-4.jpg" alt="alt"></p>
+<p>flie这个应该是个提示</p>
+<p>查阅资料后，这里应该是一个 文件包含漏洞 </p>
+<p>将源码转换为base64后显示（不转base64出不来）</p>
+<p><code>http://123.206.87.240:8005/post/index.php?file=php://filter/read=convert.base64-encode/resource=index.php</code></p>
+<p><img src="/bugku-web-flag%E5%9C%A8index%E9%87%8C/flag%E5%9C%A8index%E9%87%8C-5.jpg" alt="alt"></p>
+<p>用base64转回来看源码</p>
+<figure class="highlight php"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line">&lt;html&gt;</span><br><span class="line">    &lt;title&gt;Bugku-ctf&lt;/title&gt;</span><br><span class="line">    </span><br><span class="line"><span class="meta">&lt;?php</span></span><br><span class="line">	error_reporting(<span class="number">0</span>);</span><br><span class="line">	<span class="keyword">if</span>(!$_GET[file])&#123;<span class="keyword">echo</span> <span class="string">'&lt;a href="./index.php?file=show.php"&gt;click me? no&lt;/a&gt;'</span>;&#125;</span><br><span class="line">	$file=$_GET[<span class="string">'file'</span>];</span><br><span class="line">	<span class="keyword">if</span>(strstr($file,<span class="string">"../"</span>)||stristr($file, <span class="string">"tp"</span>)||stristr($file,<span class="string">"input"</span>)||stristr($file,<span class="string">"data"</span>))&#123;</span><br><span class="line">		<span class="keyword">echo</span> <span class="string">"Oh no!"</span>;</span><br><span class="line">		<span class="keyword">exit</span>();</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">include</span>($file); </span><br><span class="line"><span class="comment">//flag:flag&#123;edulcni_elif_lacol_si_siht&#125;</span></span><br><span class="line"><span class="meta">?&gt;</span></span><br><span class="line">&lt;/html&gt;</span><br></pre></td></tr></table></figure>
+
+<p>发现注释有个flag</p>
+<p>flag{edulcni_elif_lacol_si_siht}</p>
+
+      
+
+      
+    </div>
+    <div class="article-info article-info-index">
       
       
-      <section class="archives-wrap">
-        <div class="archive-year-wrap">
-          <a href="/archives/2020" class="archive-year">2020</a>
-        </div>
-        <div class="archives">
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2020/01/22/bugku-web-web%E5%9F%BA%E7%A1%80-POST/" class="archive-article-date">
-  	<time datetime="2020-01-22T06:11:37.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2020-01-22</time>
-</a>
-        </div>
-    	 
-  
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2020/01/22/bugku-web-web%E5%9F%BA%E7%A1%80-POST/">bugku-web-web基础$_POST</a>
-    </h1>
-  
+      
 
-        <div class="article-info info-on-right">
-          
-          
+      
 
+      
+        
+<div class="share-btn share-icons tooltip-left">
+  <div class="tooltip tooltip-east">
+    <span class="tooltip-item">
+      <a href="javascript:;" class="share-sns share-outer">
+        <i class="icon icon-share"></i>
+      </a>
+    </span>
+    <span class="tooltip-content">
+      <div class="share-wrap">
+        <div class="share-icons">
+          <a class="weibo share-sns" href="javascript:;" data-type="weibo">
+            <i class="icon icon-weibo"></i>
+          </a>
+          <a class="weixin share-sns wxFab" href="javascript:;" data-type="weixin">
+            <i class="icon icon-weixin"></i>
+          </a>
+          <a class="qq share-sns" href="javascript:;" data-type="qq">
+            <i class="icon icon-qq"></i>
+          </a>
+          <a class="douban share-sns" href="javascript:;" data-type="douban">
+            <i class="icon icon-douban"></i>
+          </a>
+          <a class="qzone share-sns" href="javascript:;" data-type="qzone">
+            <i class="icon icon-qzone"></i>
+          </a>
+          <a class="facebook share-sns" href="javascript:;" data-type="facebook">
+            <i class="icon icon-facebook"></i>
+          </a>
+          <a class="twitter share-sns" href="javascript:;" data-type="twitter">
+            <i class="icon icon-twitter"></i>
+          </a>
+          <a class="google share-sns" href="javascript:;" data-type="google">
+            <i class="icon icon-google"></i>
+          </a>
         </div>
-        <div class="clearfix"></div>
-    </header>
+      </div>
+    </span>
+  </div>
+</div>
+
+<div class="page-modal wx-share js-wx-box">
+    <a class="close js-modal-close" href="javascript:;"><i class="icon icon-close"></i></a>
+    <p>扫一扫，分享到微信</p>
+    <div class="wx-qrcode">
+      <img src="//pan.baidu.com/share/qrcode?url=http://yoursite.com/2020/02/01/bugku-web-flag%E5%9C%A8index%E9%87%8C/" alt="微信分享二维码">
+    </div>
+</div>
+
+<div class="mask js-mask"></div>
+      
+      <div class="clearfix"></div>
+    </div>
   </div>
 </article>
+
   
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2020/01/21/bugku-web-web%E5%9F%BA%E7%A1%80-GET/" class="archive-article-date">
-  	<time datetime="2020-01-21T07:16:12.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2020-01-21</time>
-</a>
+<nav id="article-nav">
+  
+  
+    <a href="/2020/01/31/bugku-web-web4/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title">bugku-web-web4</div>
+      <i class="icon-circle-right"></i>
+    </a>
+  
+</nav>
+
+
+<aside class="wrap-side-operation">
+    <div class="mod-side-operation">
+        
+        <div class="jump-container" id="js-jump-container" style="display:none;">
+            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
+                <i class="icon-font icon-back"></i>
+            </a>
+            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
+                <i class="icon-font icon-plane jump-plane"></i>
+            </div>
         </div>
-    	 
+        
+        
+    </div>
+</aside>
+
+
+
   
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2020/01/21/bugku-web-web%E5%9F%BA%E7%A1%80-GET/">bugku-web-web基础$_GET</a>
-    </h1>
+  
   
 
-        <div class="article-info info-on-right">
-          
-          
-
-        </div>
-        <div class="clearfix"></div>
-    </header>
-  </div>
-</article>
-  
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2020/01/20/bugku-web-%E8%AE%A1%E7%AE%97%E5%99%A8/" class="archive-article-date">
-  	<time datetime="2020-01-20T05:01:24.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2020-01-20</time>
-</a>
-        </div>
-    	 
-  
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2020/01/20/bugku-web-%E8%AE%A1%E7%AE%97%E5%99%A8/">bugku-web-计算器</a>
-    </h1>
   
 
-        <div class="article-info info-on-right">
-          
-          
-
-        </div>
-        <div class="clearfix"></div>
-    </header>
-  </div>
-</article>
-  
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2020/01/19/bugku-web-web2/" class="archive-article-date">
-  	<time datetime="2020-01-19T09:03:20.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2020-01-19</time>
-</a>
-        </div>
-    	 
-  
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2020/01/19/bugku-web-web2/">bugku-web-web2</a>
-    </h1>
   
 
-        <div class="article-info info-on-right">
-          
-          
-
-        </div>
-        <div class="clearfix"></div>
-    </header>
-  </div>
-</article>
-  
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2020/01/18/The%20first/" class="archive-article-date">
-  	<time datetime="2020-01-18T10:24:19.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2020-01-18</time>
-</a>
-        </div>
-    	 
-  
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2020/01/18/The%20first/">关于博客的Flag</a>
-    </h1>
-  
-
-        <div class="article-info info-on-right">
-          
-          
-
-        </div>
-        <div class="clearfix"></div>
-    </header>
-  </div>
-</article>
-  
-  
-    </div></section>
-  
-
-    
-    <nav id="page-nav">
-      <a class="extend prev" rel="prev" href="/archives/2020/">&amp;laquo; Prev</a><a class="page-number" href="/archives/2020/">1</a><span class="page-number current">2</span>
-    </nav>
   
 
 
@@ -319,8 +324,8 @@
 	var yiliaConfig = {
 		mathjax: false,
 		isHome: false,
-		isPost: false,
-		isArchive: true,
+		isPost: true,
+		isArchive: false,
 		isTag: false,
 		isCategory: false,
 		open_in_new: true,
