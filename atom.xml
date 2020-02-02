@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2020-02-02T14:35:01.075Z</updated>
+  <updated>2020-02-02T15:32:48.486Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,26 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>bugku-web-输入密码查看flag</title>
+    <link href="http://yoursite.com/2020/02/02/bugku-web-%E8%BE%93%E5%85%A5%E5%AF%86%E7%A0%81%E6%9F%A5%E7%9C%8Bflag/"/>
+    <id>http://yoursite.com/2020/02/02/bugku-web-%E8%BE%93%E5%85%A5%E5%AF%86%E7%A0%81%E6%9F%A5%E7%9C%8Bflag/</id>
+    <published>2020-02-02T14:40:35.000Z</published>
+    <updated>2020-02-02T15:32:48.486Z</updated>
+    
+    <content type="html"><![CDATA[<p><a href="https://ctf.bugku.com" target="_blank" rel="noopener">bugku平台</a></p><p>原题地址:<a href="http://123.206.87.240:8002/baopo/" target="_blank" rel="noopener">http://123.206.87.240:8002/baopo/</a></p><a id="more"></a><p><img src="/bugku-web-%E8%BE%93%E5%85%A5%E5%AF%86%E7%A0%81%E6%9F%A5%E7%9C%8Bflag/%E8%BE%93%E5%85%A5%E5%AF%86%E7%A0%81%E6%9F%A5%E7%9C%8Bflag-1.jpg" alt="alt"></p><p>保持更新</p><p>点进去~</p><p><img src="/bugku-web-%E8%BE%93%E5%85%A5%E5%AF%86%E7%A0%81%E6%9F%A5%E7%9C%8Bflag/%E8%BE%93%E5%85%A5%E5%AF%86%E7%A0%81%E6%9F%A5%E7%9C%8Bflag-2.jpg" alt="alt"></p><p>emmmm强行提示5位数密码</p><p>用burp爆破吧</p><p><img src="/bugku-web-%E8%BE%93%E5%85%A5%E5%AF%86%E7%A0%81%E6%9F%A5%E7%9C%8Bflag/%E8%BE%93%E5%85%A5%E5%AF%86%E7%A0%81%E6%9F%A5%E7%9C%8Bflag-3.jpg" alt="alt"></p><p><img src="/bugku-web-%E8%BE%93%E5%85%A5%E5%AF%86%E7%A0%81%E6%9F%A5%E7%9C%8Bflag/%E8%BE%93%E5%85%A5%E5%AF%86%E7%A0%81%E6%9F%A5%E7%9C%8Bflag-4.jpg" alt="alt"></p><p>输入密码13579得到flag</p><p><img src="/bugku-web-%E8%BE%93%E5%85%A5%E5%AF%86%E7%A0%81%E6%9F%A5%E7%9C%8Bflag/%E8%BE%93%E5%85%A5%E5%AF%86%E7%A0%81%E6%9F%A5%E7%9C%8Bflag-5.jpg" alt="alt"></p><p> flag{bugku-baopo-hah}    </p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;a href=&quot;https://ctf.bugku.com&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;bugku平台&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;原题地址:&lt;a href=&quot;http://123.206.87.240:8002/baopo/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;http://123.206.87.240:8002/baopo/&lt;/a&gt;&lt;/p&gt;
+    
+    </summary>
+    
+    
+    
+  </entry>
   
   <entry>
     <title>bugku-web-flag在index里</title>
