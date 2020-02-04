@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2020-02-03T13:03:06.254Z</updated>
+  <updated>2020-02-04T13:40:02.370Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,26 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>bugku-web-你从哪里来</title>
+    <link href="http://yoursite.com/2020/02/04/bugku-web-%E4%BD%A0%E4%BB%8E%E5%93%AA%E9%87%8C%E6%9D%A5/"/>
+    <id>http://yoursite.com/2020/02/04/bugku-web-%E4%BD%A0%E4%BB%8E%E5%93%AA%E9%87%8C%E6%9D%A5/</id>
+    <published>2020-02-04T12:54:55.000Z</published>
+    <updated>2020-02-04T13:40:02.370Z</updated>
+    
+    <content type="html"><![CDATA[<p><a href="https://ctf.bugku.com" target="_blank" rel="noopener">bugku平台</a></p><p>原题地址:<a href="http://123.206.87.240:9009/from.php" target="_blank" rel="noopener">http://123.206.87.240:9009/from.php</a></p><a id="more"></a><p><img src="/bugku-web-%E4%BD%A0%E4%BB%8E%E5%93%AA%E9%87%8C%E6%9D%A5/%E4%BD%A0%E4%BB%8E%E5%93%AA%E9%87%8C%E6%9D%A5-1.jpg" alt="alt"></p><p>更</p><p><img src="/bugku-web-%E4%BD%A0%E4%BB%8E%E5%93%AA%E9%87%8C%E6%9D%A5/%E4%BD%A0%E4%BB%8E%E5%93%AA%E9%87%8C%E6%9D%A5-2.jpg" alt="alt"></p><p>先抓一个包</p><p><img src="/bugku-web-%E4%BD%A0%E4%BB%8E%E5%93%AA%E9%87%8C%E6%9D%A5/%E4%BD%A0%E4%BB%8E%E5%93%AA%E9%87%8C%E6%9D%A5-3.jpg" alt="alt"></p><p>根据提示，应该是加一行<code>Referer:https//www.google.com</code>表明从谷歌跳转至该页面</p><p><img src="/bugku-web-%E4%BD%A0%E4%BB%8E%E5%93%AA%E9%87%8C%E6%9D%A5/%E4%BD%A0%E4%BB%8E%E5%93%AA%E9%87%8C%E6%9D%A5-4.jpg" alt="alt"></p><p>go一下，出来啦</p><p><img src="/bugku-web-%E4%BD%A0%E4%BB%8E%E5%93%AA%E9%87%8C%E6%9D%A5/%E4%BD%A0%E4%BB%8E%E5%93%AA%E9%87%8C%E6%9D%A5-5.jpg" alt="alt"></p><p>flag{bug-ku_ai_admin}</p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;a href=&quot;https://ctf.bugku.com&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;bugku平台&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;原题地址:&lt;a href=&quot;http://123.206.87.240:9009/from.php&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;http://123.206.87.240:9009/from.php&lt;/a&gt;&lt;/p&gt;
+    
+    </summary>
+    
+    
+    
+  </entry>
   
   <entry>
     <title>bugku-web-成绩单</title>
