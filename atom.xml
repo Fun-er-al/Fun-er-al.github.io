@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2020-02-04T13:40:02.370Z</updated>
+  <updated>2020-02-05T14:09:58.362Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,26 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>bugku-web-程序员本地网站</title>
+    <link href="http://yoursite.com/2020/02/05/bugku-web-%E7%A8%8B%E5%BA%8F%E5%91%98%E6%9C%AC%E5%9C%B0%E7%BD%91%E7%AB%99/"/>
+    <id>http://yoursite.com/2020/02/05/bugku-web-%E7%A8%8B%E5%BA%8F%E5%91%98%E6%9C%AC%E5%9C%B0%E7%BD%91%E7%AB%99/</id>
+    <published>2020-02-05T13:53:05.000Z</published>
+    <updated>2020-02-05T14:09:58.362Z</updated>
+    
+    <content type="html"><![CDATA[<p><a href="https://ctf.bugku.com" target="_blank" rel="noopener">bugku平台</a></p><p>原题地址:<a href="http://123.206.87.240:8002/localhost/" target="_blank" rel="noopener">http://123.206.87.240:8002/localhost/</a></p><a id="more"></a><p><img src="/bugku-web-%E7%A8%8B%E5%BA%8F%E5%91%98%E6%9C%AC%E5%9C%B0%E7%BD%91%E7%AB%99/%E7%A8%8B%E5%BA%8F%E5%91%98%E6%9C%AC%E5%9C%B0%E7%BD%91%E7%AB%99-1.jpg" alt="alt"></p><p>今天看个简单的</p><p><img src="/bugku-web-%E7%A8%8B%E5%BA%8F%E5%91%98%E6%9C%AC%E5%9C%B0%E7%BD%91%E7%AB%99/%E7%A8%8B%E5%BA%8F%E5%91%98%E6%9C%AC%E5%9C%B0%E7%BD%91%E7%AB%99-2.jpg" alt="alt"></p><p>进去看到这个提示，马上想到之前<a href="https://fun-er-al.github.io/2020/01/30/bugku-web-%E7%AE%A1%E7%90%86%E5%91%98%E7%B3%BB%E7%BB%9F/" target="_blank" rel="noopener">管理员系统</a>那道题，加入XFF头伪造本地登录</p><p>那就先抓包</p><p><img src="/bugku-web-%E7%A8%8B%E5%BA%8F%E5%91%98%E6%9C%AC%E5%9C%B0%E7%BD%91%E7%AB%99/%E7%A8%8B%E5%BA%8F%E5%91%98%E6%9C%AC%E5%9C%B0%E7%BD%91%E7%AB%99-3.jpg" alt="alt"></p><p>添加<code>X-Forwarded-For: 127.0.0.1</code></p><p>go一下得到flag</p><p><img src="/bugku-web-%E7%A8%8B%E5%BA%8F%E5%91%98%E6%9C%AC%E5%9C%B0%E7%BD%91%E7%AB%99/%E7%A8%8B%E5%BA%8F%E5%91%98%E6%9C%AC%E5%9C%B0%E7%BD%91%E7%AB%99-4.jpg" alt="alt"></p><p>flag{loc-al-h-o-st1}</p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;a href=&quot;https://ctf.bugku.com&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;bugku平台&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;原题地址:&lt;a href=&quot;http://123.206.87.240:8002/localhost/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;http://123.206.87.240:8002/localhost/&lt;/a&gt;&lt;/p&gt;
+    
+    </summary>
+    
+    
+    
+  </entry>
   
   <entry>
     <title>bugku-web-你从哪里来</title>
