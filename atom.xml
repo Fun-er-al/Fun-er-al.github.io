@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2020-02-05T14:09:58.362Z</updated>
+  <updated>2020-02-09T14:01:53.909Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,25 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>bugku-加密-嘀嗒~嘀</title>
+    <link href="http://yoursite.com/2020/02/09/bugku-%E5%8A%A0%E5%AF%86-%E5%98%80%E5%97%92-%E5%98%80/"/>
+    <id>http://yoursite.com/2020/02/09/bugku-%E5%8A%A0%E5%AF%86-%E5%98%80%E5%97%92-%E5%98%80/</id>
+    <published>2020-02-09T13:52:28.000Z</published>
+    <updated>2020-02-09T14:01:53.909Z</updated>
+    
+    <content type="html"><![CDATA[<p><a href="https://ctf.bugku.com" target="_blank" rel="noopener">bugku平台</a></p><a id="more"></a><p>几天没更了（因为没做出新的web题）</p><p>但是flag不能倒</p><p>看个简单的加密题</p><p> -… -.- -.-. - ..-. – .. … -.-.    </p><p>对照摩尔斯电码一下就出来了</p><p>KEY{ BKCTFMISC }</p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;a href=&quot;https://ctf.bugku.com&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;bugku平台&lt;/a&gt;&lt;/p&gt;
+    
+    </summary>
+    
+    
+    
+  </entry>
   
   <entry>
     <title>bugku-web-程序员本地网站</title>
