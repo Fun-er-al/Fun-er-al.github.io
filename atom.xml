@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2020-02-11T14:18:29.228Z</updated>
+  <updated>2020-02-12T15:59:22.379Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,21 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>bugku-密码-这不是摩斯密码</title>
+    <link href="http://yoursite.com/2020/02/12/bugku-%E5%AF%86%E7%A0%81-%E8%BF%99%E4%B8%8D%E6%98%AF%E6%91%A9%E6%96%AF%E5%AF%86%E7%A0%81/"/>
+    <id>http://yoursite.com/2020/02/12/bugku-%E5%AF%86%E7%A0%81-%E8%BF%99%E4%B8%8D%E6%98%AF%E6%91%A9%E6%96%AF%E5%AF%86%E7%A0%81/</id>
+    <published>2020-02-12T15:59:22.000Z</published>
+    <updated>2020-02-12T15:59:22.379Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+    
+  </entry>
   
   <entry>
     <title>bugku-加密-ok</title>
@@ -388,26 +403,6 @@
     
       &lt;p&gt;&lt;a href=&quot;https://ctf.bugku.com&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;bugku平台&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;原题地址:&lt;a href=&quot;http://123.206.87.240:8002/get/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;http://123.206.87.240:8002/get/&lt;/a&gt;&lt;/p&gt;
-    
-    </summary>
-    
-    
-    
-  </entry>
-  
-  <entry>
-    <title>bugku-web-计算器</title>
-    <link href="http://yoursite.com/2020/01/20/bugku-web-%E8%AE%A1%E7%AE%97%E5%99%A8/"/>
-    <id>http://yoursite.com/2020/01/20/bugku-web-%E8%AE%A1%E7%AE%97%E5%99%A8/</id>
-    <published>2020-01-20T05:01:24.000Z</published>
-    <updated>2020-01-20T05:22:38.898Z</updated>
-    
-    <content type="html"><![CDATA[<p><a href="https://ctf.bugku.com" target="_blank" rel="noopener">bugku平台</a></p><p>原题地址:<a href="http://123.206.87.240:8002/yanzhengma/" target="_blank" rel="noopener">http://123.206.87.240:8002/yanzhengma/</a></p><a id="more"></a><p><img src="/bugku-web-%E8%AE%A1%E7%AE%97%E5%99%A8/%E8%AE%A1%E7%AE%97%E5%99%A8-1.jpg" alt="alt"></p><p>今天来看看第二题</p><p><img src="/bugku-web-%E8%AE%A1%E7%AE%97%E5%99%A8/%E8%AE%A1%E7%AE%97%E5%99%A8-2.jpg" alt="alt"></p><p>看起来好像只要做一道口算题</p><p><img src="/bugku-web-%E8%AE%A1%E7%AE%97%E5%99%A8/%E8%AE%A1%E7%AE%97%E5%99%A8-3.jpg" alt="alt"></p><p>然而输入一个数后就输不进去了</p><p>那就来康康网页代码，F12</p><p><img src="/bugku-web-%E8%AE%A1%E7%AE%97%E5%99%A8/%E8%AE%A1%E7%AE%97%E5%99%A8-4.jpg" alt="alt"></p><p>可以发现，这里输入的最大长度maxlength=“1”</p><p>直接编辑它使它大于等于2</p><p><img src="/bugku-web-%E8%AE%A1%E7%AE%97%E5%99%A8/%E8%AE%A1%E7%AE%97%E5%99%A8-5.jpg" alt="alt"></p><p>这样就可以输入完整的答案了</p><p><img src="/bugku-web-%E8%AE%A1%E7%AE%97%E5%99%A8/%E8%AE%A1%E7%AE%97%E5%99%A8-6.jpg" alt="alt"></p><p>验证后，出现一个弹窗，得到flag</p><p><img src="/bugku-web-%E8%AE%A1%E7%AE%97%E5%99%A8/%E8%AE%A1%E7%AE%97%E5%99%A8-7.jpg" alt="alt"></p><p>flag{CTF-bugku-0032}</p>]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;&lt;a href=&quot;https://ctf.bugku.com&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;bugku平台&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;原题地址:&lt;a href=&quot;http://123.206.87.240:8002/yanzhengma/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;http://123.206.87.240:8002/yanzhengma/&lt;/a&gt;&lt;/p&gt;
     
     </summary>
     
